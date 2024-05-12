@@ -1,14 +1,14 @@
-SIMULATION AND IMPLEMENTATION OF MULTIPLIER
+**SIMULATION AND IMPLEMENTATION OF MULTIPLIER**
 
- AIM:  
+ **AIM:**
  
 To simulate multiplier using Vivado 2023.2.
 
-APPARATUS REQUIRED:
+**APPARATUS REQUIRED:**
 
  Vivado 2023.2
  
-PROCEDURE: 
+**PROCEDURE:** 
 
 1. Open Vivado: Launch Xilinx Vivado software on your computer.
 
@@ -28,13 +28,13 @@ PROCEDURE:
 
 9. View Results: After the simulation completes, you can view waveforms, debug signals, and analyze the behavior of your design.
 
-2 BIT MULTIPLIER:
+**2 BIT MULTIPLIER**:
 
-Logic Diagram 
+**Logic Diagram** 
 
 ![image](https://github.com/Lokeshmb005/VLSI-LAB-EXP-3/assets/159941167/fed3ba70-2d62-4402-ae9b-00af89157f0a)
  
-VERILOG CODE
+**VERILOG CODE**
 ```
 2 bit multiplier
 module ha(a,b,sum,carry);
@@ -57,17 +57,17 @@ ha adder2(w3,w4,p[2],cout);
 
 endmodule
 ```
-OUTPUT WAVEFORM
+**OUTPUT WAVEFORM**
 
 ![image](https://github.com/Lokeshmb005/VLSI-LAB-EXP-3/assets/159941167/779a9b88-13f9-4f79-a326-68dffc8a7fcc)
 
- 4-BIT MULTIPLIER:
+ **4-BIT MULTIPLIER:**
  
-LOGIC DIAGRAM
+**LOGIC DIAGRAM**
 
  ![image](https://github.com/Lokeshmb005/VLSI-LAB-EXP-3/assets/159941167/94db7764-6a49-4349-9511-7d30a5d04981)
 
-VERILOG CODE
+**VERILOG CODE**
 ```
 4 bit multiplier
 module ha(a,b,sum,carry);
@@ -125,12 +125,12 @@ fa r73(w[14],fs[4],fc[5],p[5],fc[6]);
 fa r74(w[15],fc[4],fc[6],p[6],p[7]);
 endmodule
 
-OUTPUT WAVEFORM
+**OUTPUT WAVEFORM**
 
 ![image](https://github.com/Lokeshmb005/VLSI-LAB-EXP-3/assets/159941167/ea0da4bf-982b-4df8-9c3e-565b0c7f9efd)
 
  
 
-RESULT
+**RESULT**
 
 To simulation 2-bit and 4-bit multiplier are verified successfullly.
